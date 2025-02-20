@@ -81,5 +81,5 @@ fun TaxiPark.checkParetoPrinciple(): Boolean {
 
     val eightyPercentCost = totalCost * 0.8
 
-    return (twentyPercentCost >= eightyPercentCost)
+    return twentyPercentCost >= eightyPercentCost
 }

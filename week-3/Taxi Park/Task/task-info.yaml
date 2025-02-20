@@ -52,7 +52,7 @@ files:
         selected: true
         status: Unchecked
       - offset: 2154
-        length: 576
+        length: 574
         placeholder_text: TODO()
         initial_state:
           length: 6
