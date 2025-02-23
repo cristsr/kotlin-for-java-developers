@@ -105,8 +105,9 @@ infix fun BigInteger.divBy(other: BigInteger): Rational {
 }
 
 fun String.toRational(): Rational {
-    val values = this.split("/")
-    return Rational(values[0].toBigInteger(), (values.getOrElse(1) { "1" }).toBigInteger())
+    if (!this.contains("/")) return Rational(toBigInteger(), BigInteger.ONE)
+    val (numerator, denominator) = split("/")
+    return Rational(numerator.toBigInteger(), denominator.toBigInteger())
 }
 
 
