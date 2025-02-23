@@ -6,23 +6,23 @@ files:
   - name: src/board/BoardImpl.kt
     visible: true
     placeholders:
-      - offset: 90
-        length: 6
+      - offset: 2458
+        length: 94
         placeholder_text: TODO()
         initial_state:
           length: 6
           offset: 90
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
-      - offset: 149
-        length: 6
+      - offset: 2603
+        length: 88
         placeholder_text: TODO()
         initial_state:
           length: 6
           offset: 149
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: test/board/TestGameBoard.kt
