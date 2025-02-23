@@ -57,7 +57,7 @@ class Rational(private val numerator: BigInteger, private val denominator: BigIn
 
     operator fun unaryMinus(): Rational = Rational(-numerator, denominator)
 
-    override operator fun equals(other: Any?): Boolean {
+    override fun equals(other: Any?): Boolean {
         if (other !is Rational) return false
         val normalized = normalize()
         val otherNormalized = other.normalize()
