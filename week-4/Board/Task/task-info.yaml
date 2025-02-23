@@ -39,4 +39,8 @@ files:
     learner_created: false
 feedback_link: https://www.coursera.org/learn/kotlin-for-java-developers/programming/7fkLn/board/discussions
 status: Unchecked
+feedback:
+  message: "Submission successful, please <a href=\"https://www.coursera.org/learn/kotlin-for-java-developers/programming/7fkLn/board/submission\"\
+    >check the status on Coursera</a>"
+  time: "Sun, 23 Feb 2025 05:35:13 UTC"
 record: -1
